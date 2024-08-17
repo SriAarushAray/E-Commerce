@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Page</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        background-image: url(background.jpg);
+      }
+      body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+      }
+      .container {
+        width: 300px;
+        padding: 16px;
+        background-color: #021820;
+        margin: 0 auto;
+        margin-top: 100px;
+        border: 1px solid black;
+        border-radius: 4px;
+      }
+      .container input[type="text"],
+      .container input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      .container button {
+        background-color: grey;
+        color: yellowgreen;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      .login {
+        text-decoration: none;
+        color: black;
+      }
+      .register {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="color: gray">Shop</h2>
+      <h2 style="color: green">Guru</h2>
+      <label style="color: black" , label="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required />
+
+      <label style="color: black" , for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required />
+
+      <button type="submit">
+        <a href="index.html" class="login">Login</a>
+      </button>
+      <button type="submit">
+        <a href="regform.html" class="register">Register</a>
+      </button>
+      <script>
+        function Register() {}
+      </script>
+    </div>
+  </body>
+</html>
